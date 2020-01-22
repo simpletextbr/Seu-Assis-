@@ -1,0 +1,44 @@
+ul.box-notify{
+    list-style: none;
+    border-radius: 4px;
+
+}
+
+ul.box-notify li.box {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: black;
+    border-radius: 25px;
+    border-color: gray;
+}
+
+ul.box-notify li strong.inner{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+ul.box-notify li spam{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+ul.box-notify li button{
+    margin-right: 10px;
+    border: 0;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+ul.box-notify li button.accept{
+    color: #84c870;
+}
+
+ul.box-notify li button.reject{
+    color: #E55E5E ;
+}
